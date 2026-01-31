@@ -244,39 +244,4 @@ Writing bullet points for **5 minutes per day is enough**.
 
 ---
 
-## 📊 How to analyze your work later
-
-Recommended workflow:
-
-- Daily logs → raw data
-- Weekly summaries → overview
-- Monthly summaries → practice report
-- Thematic grouping → diploma chapters
-
-Suggested tags:
-
-```
-[ADAS], [Validation], [Bugfix], [Testing], [Infra]
-```
-
----
-
-## 🎓 Why this works
-
-- Removes friction
-- Enforces consistency
-- Produces objective proof of work
-- Makes report and diploma writing trivial
-
----
-
-## 🧠 Final advice
-
-- Write **what you did**, not how you felt
-- Log tickets and meetings
-- Consistency beats detail
-- One bullet point is better than none
-
----
-
 Happy logging 👌
