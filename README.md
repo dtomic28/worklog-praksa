@@ -94,12 +94,12 @@ This date defines **Week 01 of practice**.
 
 ## 🪟 Windows Setup
 
-### 3️⃣ Configure `worklog.bat`
+### 3️⃣ Configure `worklog.ps1`
 
-Open `worklog.bat` and update:
+Open `worklog.ps1` and update:
 
 ```bat
-cd /d C:\path\to\worklog-praksa
+$WORKLOG_DIR = "C:\PathToWorklogFolder"
 ```
 
 ---
@@ -123,7 +123,7 @@ If the file does not exist, PowerShell will ask to create it — choose **Yes**.
 Add the following line to `profile.ps1`:
 
 ```powershell
-Set-Alias worklog "C:\path\to\worklog-praksa\worklog.bat"
+Set-Alias worklog "C:\path\to\worklog-praksa\worklog.ps1"
 ```
 
 Replace `C:\path\to\worklog-praksa` with the actual path to your project.

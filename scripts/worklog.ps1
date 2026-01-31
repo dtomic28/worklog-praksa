@@ -1,7 +1,7 @@
 # ==========================
 # CONFIG
 # ==========================
-$WORKLOG_DIR = "C:\Users\danijel\Documents\Programing\Projects\worklog-praksa"
+$WORKLOG_DIR = "C:\PathToWorklogFolder\"
 
 # ==========================
 # SCRIPT
