@@ -1,15 +1,15 @@
 @echo off
-set WORKLOG_DIR="PATH_TO_YOUR_WORKLOG_DIRECTORY"
+set WORKLOG_DIR=C:\Users\danijel\Documents\Programing\Projects\worklog-praksa
 
 cd /d %WORKLOG_DIR%
 
-REM Run python script (creates folders + md)
-python scripts\daily_log.py
+REM Run python script and capture output (file path)
+for /f "delims=" %%i in ('python scripts\daily_log.py') do set LOGFILE=%%i
 
-REM Open VS Code and WAIT until closed
-code . --wait
+REM Open the generated markdown file and WAIT
+code "%LOGFILE%" --wait
 
-REM After VS Code is closed → git commit & push
+REM Git commit & push
 git add .
 git commit -m "worklog: %DATE%"
 git push

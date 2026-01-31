@@ -73,4 +73,4 @@ if not md_file.exists():
         encoding="utf-8",
     )
 
-print(f"Daily log ready: {md_file}")
+print(f"{md_file}")
